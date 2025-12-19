@@ -3,6 +3,8 @@
 ## Step 1: Open Spring Initializer
 - Go to **https://start.spring.io**
 - This website helps you generate a Spring Boot project easily.
+- ![Setup](images/setup.png)
+
 
 ## Step 2: Select Project Configuration
 - **Build Tool:** Maven
@@ -46,6 +48,8 @@
 - Run `SpringDemoApplication.java`
 - Application starts on **Tomcat server**
 - Default URL: **http://localhost:8080**
+- ![Setup](images/locolhost8080.png)
+
 
 ## Step 10: Verify
 - Browser shows no output (empty project)
