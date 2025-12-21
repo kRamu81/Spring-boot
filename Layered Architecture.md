@@ -32,8 +32,9 @@ Annotations used:
 - `@RestController`
 - `@GetMapping`
 - `@PostMapping`
-- ```java
-  package com.codesnippet.spring_demo_application.Controller;
+
+```java
+package com.codesnippet.spring_demo_application.Controller;
 
 import com.codesnippet.spring_demo_application.Service.EmployeeService;
 import com.codesnippet.spring_demo_application.dto.EmployeeDTO;
@@ -68,7 +69,7 @@ public class EmployeeController {
 Annotations used:
 - `@Service`
 - `@Autowired`
-- ```java
+```java
   package com.codesnippet.spring_demo_application.Service;
 
 import com.codesnippet.spring_demo_application.Repository.EmployeeRepository;
@@ -104,8 +105,8 @@ Annotations used:
 - `@Repository`
 - `@Entity`
 - `@Id`
-- ```java
-- package com.codesnippet.spring_demo_application.Repository;
+```java
+package com.codesnippet.spring_demo_application.Repository;
 
 import com.codesnippet.spring_demo_application.entity.Employee;
 import org.springframework.stereotype.Repository;
@@ -126,8 +127,8 @@ public class EmployeeRepository {
 - Represents database table
 - Maps columns to fields
 - Used only for DB operations
-- ```java
-  package com.codesnippet.spring_demo_application.entity;
+```java
+package com.codesnippet.spring_demo_application.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -176,8 +177,8 @@ public class Employee {
 - Used for client communication
 - Hides database structure
 - Returned as API response
-- ```java
-  package com.codesnippet.spring_demo_application.dto;
+```java
+package com.codesnippet.spring_demo_application.dto;
 
 import com.codesnippet.spring_demo_application.entity.Employee;
 
