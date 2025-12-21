@@ -57,7 +57,7 @@ public class EmployeeController {
     }
 }
 
-- ```
+```
 
 ---
 
@@ -92,7 +92,7 @@ public class EmployeeService {
     }
 }
 
-- ```
+```
 
 ---
 
@@ -119,7 +119,7 @@ public class EmployeeRepository {
     }
 }
 
-- ```
+```
 
 ---
 
@@ -169,7 +169,7 @@ public class Employee {
     }
 }
 
-- ```
+```
 
 ---
 
@@ -220,7 +220,7 @@ public class EmployeeDTO {
     }
 }
 
-- ```
+```
 
 ---
 
