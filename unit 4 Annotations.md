@@ -43,3 +43,50 @@ method=RequestNethod.GET
 public String getEmployee(@RequestParam int id)
 ```
 
+### 11 . @pathVariable
+      - used to take value from URL path.
+```java
+@GetMapping("/employee/{id}")
+public String getEmployee(@PathVariable int id)
+```
+
+Difference :
+RequestParam -> ?id=101
+pathvariable -> /employee/101
+
+### 12. @RequestBody
+     - used to accept Json from request body
+```json
+{
+  "name": "ramu",
+  "emplouyeeId": 1,
+  "department": "IT"
+}
+```
+- converts JSON to java object
+```java
+@PostMapping("/add")
+public String getEmployee(@RequestBody Employee emp)
+```
+
+
+### 13. @service
+     - Make class as service layer
+-used for Business logic , processing , calculations
+- It is specilization of @Component
+
+### 14 . @Component
+      - Generic Spring bean
+-when you mark class with @component:
+  - spring creates object
+  - -manages life cycle
+  - no need to use new keyword
+
+### 15 .@Reepository
+     - Marks class as repository layer
+-used for Database operations
+-It also specilization of @component
+
+### 16 . @Autowired
+     - used for Deendy Injection
+-spring automatically injects object
