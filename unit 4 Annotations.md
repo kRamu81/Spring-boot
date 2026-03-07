@@ -59,7 +59,7 @@ pathvariable -> /employee/101
 ```json
 {
   "name": "ramu",
-  "emplouyeeId": 1,
+  "employeeId": 1,
   "department": "IT"
 }
 ```
@@ -88,5 +88,5 @@ public String getEmployee(@RequestBody Employee emp)
 -It also specilization of @component
 
 ### 16 . @Autowired
-     - used for Deendy Injection
+     - used for Dependency Injection
 -spring automatically injects object
